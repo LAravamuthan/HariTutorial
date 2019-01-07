@@ -5,8 +5,7 @@ public class DriverClass {
 	public static void main(String [] args) {
 		ParentClass p = new ChildClass();
 		ChildClass c = new ChildClass();
-		ParentClass c2 = new ChildClass2();
-		
+		ParentClass c2 = new ChildClass2();	
 		p.doSomething();// Iam parent
 		c.doSomething();// Iam Child 
 		c2.doSomething();// I am child2
